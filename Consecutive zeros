@@ -1,0 +1,8 @@
+#Return maximum consecutive zeros.
+
+
+def consecutive_zeros(a):
+    for i in a:
+        x=a.split('1')
+    len1=max(x, key=len)
+    return len(len1)
