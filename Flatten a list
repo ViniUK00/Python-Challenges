@@ -1,0 +1,8 @@
+#Write a function that takes a list of lists and flattens it into a one-dimensional list.
+
+def flatten(t):
+    flat_list = []
+    for sublist in t:
+        for item in sublist:
+            flat_list.append(item)
+    return flat_list
