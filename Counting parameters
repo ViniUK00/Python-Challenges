@@ -1,0 +1,7 @@
+#Returns the parameters of any function
+
+
+def param_count(*args):
+     
+    # using len() method in args to count
+    return(len(args))
