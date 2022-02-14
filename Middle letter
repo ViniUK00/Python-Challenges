@@ -1,0 +1,10 @@
+#Return middle letter
+
+def mid(x):
+    count=0
+    
+    if len(x)%2==0:
+        a=""
+    else:
+        a=(x[(len(x)-1)//2:(len(x)+2)//2])
+    return a
